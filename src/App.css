@@ -1,38 +1,53 @@
-.App {
+.hero-card-container {
+  padding: 25px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.hero-card {
+  display: inline-block;
+  margin: 10px;
+  padding: 15px;
+  width: 300px;
+  background-color: rgb(241, 241, 241);
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.hero-card h4 {
+  display: inline-block;
+  width: 100px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.hero-card img {
+  display: inline-block;
+  width: 80px;
+  margin: 0px 0px 37px 70px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+.table-container {
+  margin: 0px 205px;
+}
+
+input {
+  border: solid black 0.8px;
+  padding: 5px;
+  border-radius: 15px;
+  outline: none;
+}
+
+.save-button {
+  background-color: #a72ba7;
   color: white;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
 }
 
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.delete-button {
+  background-color: #4d34bf;
+  color: white;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
 }
